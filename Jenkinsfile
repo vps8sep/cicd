@@ -17,4 +17,11 @@ node {
         }
          
     }
+    stage('Notify People'){
+        sh 'echo hello people'
+    }
+    stage('Notify People2'){
+        sh 'echo hello people'
+    }
+    //
 }
